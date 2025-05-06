@@ -6,3 +6,4 @@ setuptools==45.2.0
 torch==2.0.1
 tqdm==4.66.1
 transformers==4.37.2
+protobuf

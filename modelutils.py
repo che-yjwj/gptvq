@@ -7,7 +7,8 @@ import torch
 import torch.nn as nn
 
 
-DEV = torch.device("cuda:0")
+# DEV = torch.device("cuda:0")
+DEV = torch.device("cpu")
 
 
 def find_layers(module, layers=[nn.Conv2d, nn.Linear], name=""):
